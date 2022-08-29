@@ -1,0 +1,125 @@
+ul.header {
+  font-size: 15px;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  justify-content: space-around;
+  align-self: center;
+  font-family: "Orbitron", sans-serif;
+}
+ 
+li a, .dropbtn {
+  display: inline-block;
+  color: #23001e;
+  text-align: center;
+  margin: 5px 3px 5px 3px;
+  padding: 14px 24px;
+  text-decoration: none;
+}
+#donate {
+  color: #23001e;
+  background-color: #ffba49;
+  border-radius: 30px;
+}
+#donate:hover{
+    color: white;
+    background-color: #ff6e27;
+  }
+
+li a:hover, .dropdown:hover .dropbtn {
+  color: white;
+}
+ 
+li.dropdown {
+  display: inline-block;
+}
+ 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#ef5b5b;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 0px;
+}
+ 
+.dropdown-content a {
+  color: #23001e;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+ 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+header{
+  background-color:#ef5b5b;
+  display: flex;
+  vertical-align: middle;
+  justify-content: space-between;
+  font-family: 'Readex Pro', sans-serif;
+}
+
+
+ul.cont{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  align-self: center;
+}
+
+li.cont{
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 20px;
+}
+
+div#div_opt{
+  background-color: #a4a9ad;
+}
+
+button.opt{
+  font-family: "Orbitron", sans-serif;
+  color: #29192e;
+  text-align: center;
+  width: 150px;
+  padding: 5px 0px 14px 0px;
+  text-decoration: none;
+  background-color: #ffba49;
+  border: none;
+  border-radius: 30px;
+}
+
+button.opt:hover{
+  background-color: #ff6e27;
+  color: white;
+}
+
+h1, h2{
+  color: #20a39e;
+  margin-left: 50px;
+}
+
+h3{
+  color: #20a39e;
+}
+#terceira{
+  color: #de004e;
+}
+
+body{
+  color: #23001e;
+  background-color: #f3ebff;
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+  font-size: 80%;
+}
