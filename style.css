@@ -98,10 +98,10 @@ li.cont{
   display: inline-block;
   vertical-align: top;
   text-decoration: none;
-  padding: 20px;
+  padding: 0px;
 }
 
-div#div_opt{
+#div_opt{
   background-color: #a4a9ad;
 }
 
@@ -109,7 +109,7 @@ button.opt{
   font-family: "Orbitron", sans-serif;
   color: #29192e;
   text-align: center;
-  width: 150px;
+  width: auto;
   padding: 5px 0px 14px 0px;
   text-decoration: none;
   background-color: #ffba49;
