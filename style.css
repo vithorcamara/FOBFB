@@ -98,11 +98,18 @@ li.cont{
   display: inline-block;
   vertical-align: top;
   text-decoration: none;
-  padding: 0px;
+  padding: 20px;
 }
 
 #div_opt{
   background-color: #a4a9ad;
+}
+
+li.opt{
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 20px 0px;
 }
 
 button.opt{
