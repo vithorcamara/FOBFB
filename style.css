@@ -26,6 +26,7 @@ ul.header {
 
 main {
   max-width: 75%;
+  max-width: 85%;
   margin: auto; 
   background-color:rgb(214, 210, 203)
 }
@@ -118,6 +119,7 @@ button.opt{
   text-align: center;
   width: auto;
   padding: 5px 0px 14px 0px;
+  padding: 20px 0px 0px 0px;
   text-decoration: none;
   background-color: #ffba49;
   border: none;
