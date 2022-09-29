@@ -5,38 +5,66 @@
   padding: 0;
 }
 
-header{
+nav{
   margin: auto;
   background-color:#ef5b5b;
   display: flex;
-  vertical-align: middle;
+  align-items: center;
   justify-content: space-between;
   font-family: 'Readex Pro', sans-serif;
+  height: 10vh;
 }
 
-ul.header {
+#resp-nav-menu{
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 906px){
+  .nav-menu{
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    width: 50vw;
+    height: 90vh;
+    background-color: #ef5b5b;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+  .dropdown-content{
+    transform: translateX(200%);
+  }
+  #resp-nav-menu{
+    display: block;
+    margin: auto;
+  }
+  .nav-menu.active{
+    transform: translateX(0);
+  }
+}
+
+#FOBFB-LOGO{
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #23001e;
+  margin: auto;
+}
+
+.nav-menu {
+  display: flex;
   font-size: 15px;
-  justify-content: space-between;
   list-style-type: none;
   margin: auto;
-  padding: 0;
   overflow: hidden;
   justify-content: space-around;
   align-self: center;
   font-family: "Orbitron", sans-serif;
 }
 
-main {
-  max-width: 75%;
-  max-width: 85%;
-  margin: auto; 
-  background-color:rgb(214, 210, 203)
-}
-
-main > h1, main > h2 {
-  display: none;
-}
- 
 li a, .dropbtn {
   display: inline-block;
   color: #23001e;
@@ -61,6 +89,7 @@ li a:hover, .dropdown:hover .dropbtn {
  
 li.dropdown {
   display: inline-block;
+  align-content: center;
 }
  
 .dropdown-content {
@@ -86,6 +115,15 @@ li.dropdown {
 }
 
 
+main {
+  max-width: 90vw;
+  margin: auto; 
+  background-color:rgb(214, 210, 203);
+}
+
+main > h1, main > h2 {
+  display: none;
+}
 
 ul.cont{
   display: flex;
@@ -146,7 +184,7 @@ h3{
 }
 
 body{
-  
+  overflow-x: hidden;
   color: #23001e;
   background-color: #f3ebff;
   margin: 0;
