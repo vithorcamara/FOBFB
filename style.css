@@ -11,7 +11,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Poppins', sans-serif;
   height: 10vh;
 }
 
@@ -62,7 +62,7 @@ nav{
   overflow: hidden;
   justify-content: space-around;
   align-self: center;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 
 li a, .dropbtn {
