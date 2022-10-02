@@ -73,7 +73,7 @@ var txt_opt1 = document.getElementById("txt_opt1")
 var txt_opt2 = document.getElementById("txt_opt2")
 var txt_opt3 = document.getElementById("txt_opt3")
 function opt_1(){
-    img_opt.src = "images/strength-people-hands-success-meeting.jpg"
+    img_opt.src = "assets/FOBFB_LOGO.jpg"
     tit_opt.innerHTML = "FOBFB"
     txt_opt1.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet metus ornare, efficitur eros vel, mattis lorem. Nulla in tincidunt mauris, eget fermentum nulla. Sed malesuada quam blandit augue consequat, vel feugiat sapien laoreet. Morbi vestibulum a tellus ut aliquet. Mauris ut fringilla libero, a viverra urna. Pellentesque tempor fringilla nisi, vel pretium urna vehicula in. Sed sagittis eget tortor ut feugiat.Vivamus vel urna ut metus tincidunt ullamcorper non ut felis. Cras non nisl in velit elementum dignissim. In at tellus id felis consequat placerat a sed ligula. Donec non sagittis tortor, sed imperdiet mi."
     txt_opt2.innerHTML = "Cras quis risus elit. Curabitur et justo id sapien pellentesque imperdiet a in est. Sed non magna vitae arcu aliquam lobortis nec vitae lorem. Suspendisse lacinia turpis vitae eros ultricies, in gravida ante ornare. Donec lobortis arcu nec venenatis luctus. Sed varius maximus tellus. Quisque ac posuere sapien. Suspendisse potenti. Sed semper libero vel diam vestibulum sollicitudin. Donec sagittis magna ac mi pulvinar euismod. Nunc vitae accumsan mi. Nam mattis, magna ac lacinia feugiat, leo urna sagittis sapien, vel pellentesque lectus est eu erat."

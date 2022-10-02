@@ -118,6 +118,10 @@ div.cont{
   padding: 1vh;
 }
 
+#reverse{
+  flex-direction: row-reverse;
+}
+
 #div_opt{
   background-color: #a4a9ad;
 }
