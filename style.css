@@ -51,24 +51,43 @@ li a, .dropbtn {
   color: #23001e;
   background-color: #67b2d1;
   border-radius: 10vw;
+  display: inline-block;
+  align-content: center;
 }
 #donate:hover{
     color: #125e8a;
     background-color: #e8d1cb;
-  }
+}
 
-li a:hover, .dropdown:hover .dropbtn {
+
+li a:hover{
   color: #125e8a;
 }
  
-li.dropdown {
+.dropdown {
   display: inline-block;
+  position: relative;
   align-content: center;
 }
 
-.dropdown:hover {
-  display: block;
+.dropdown:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0.3vh;
+  bottom: 0;
+  left: 0;
+  background-color: #125e8a;
+  transform-origin: bottom;
+  transition: transform 0.1s ease-out;
 }
+
+.dropdown:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom;
+}
+
 
 main {
   max-width: 90vw;
