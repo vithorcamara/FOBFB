@@ -6,6 +6,8 @@
 }
 
 nav{
+  position: sticky;
+  top: 0;
   margin: auto;
   background-color:#e2ecee;
   display: flex;
@@ -90,6 +92,7 @@ li a:hover{
 
 
 main {
+  max-width: 90vw;
   margin: auto; 
   background-color: antiquewhite;
 }
