@@ -12,7 +12,7 @@ nav{
   align-items: center;
   justify-content: space-between;
   font-family: 'Poppins', sans-serif;
-  height: 10vh;
+  height: 60px;
 }
 
 #resp-nav-menu{
@@ -75,7 +75,7 @@ li a:hover{
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 0.3vh;
+  height: 2px;
   bottom: 0;
   left: 0;
   background-color: #125e8a;
@@ -90,7 +90,6 @@ li a:hover{
 
 
 main {
-  max-width: 90vw;
   margin: auto; 
   background-color: antiquewhite;
 }
@@ -177,7 +176,7 @@ body{
 @media (max-width: 906px){
   .nav-menu{
     position: absolute;
-    top: 10vh;
+    top: 60px;
     right: 0;
     width: 50vw;
     height: 90vh;
