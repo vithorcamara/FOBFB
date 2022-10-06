@@ -1,4 +1,6 @@
-/*- Linha de comentário para teste push origin*/
+:root {
+  --azul-escuro: ##125E8A;
+}
 
 * {
   margin: 0;
@@ -50,16 +52,25 @@ li a, .dropbtn {
   text-decoration: none;
 }
 #donate {
-  color: #23001e;
+  color: white;
   background-color: #67b2d1;
+<<<<<<< Updated upstream
   border-radius: 10vw;
   display: inline-block;
   align-content: center;
+=======
+  border-radius: 1vw;
+>>>>>>> Stashed changes
 }
 #donate:hover{
     color: #125e8a;
     background-color: #e8d1cb;
+<<<<<<< Updated upstream
 }
+=======
+    border-radius: 10px;
+  }
+>>>>>>> Stashed changes
 
 
 li a:hover{
