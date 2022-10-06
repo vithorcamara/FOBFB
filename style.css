@@ -1,5 +1,5 @@
 :root {
-  --azul-escuro: ##125E8A;
+  --azul-escuro: #125E8A;
 }
 
 * {
@@ -101,7 +101,7 @@ li a:hover{
 main {
   max-width: 90vw;
   margin: auto; 
-  background-color: antiquewhite;
+  background-color: #FFF9F5;
 }
 
 main > h1, main > h2 {
@@ -146,39 +146,57 @@ li.opt{
 }
 
 button.opt{
-  font-family: 'Berkshire Swash', cursive;
-  color: #29192e;
+  font-family: 'Poppins';
+  color: white;
   text-align: center;
   width: auto;
   padding: 5px 14px;
   text-decoration: none;
-  background-color: #67b2d1;
+  background-color: #125E8A;
   border: none;
-  border-radius: 10vw;
+  border-radius: 0.5vw;
 }
 
 button.opt:hover{
-  background-color: #e2ecee;
-  color: #125e8a;
+  background-color: #e8d1cb;
+  color: #125E8A;
+}
+
+.text {
+  padding: 0 20px;
 }
 
 h1, h2{
-  color: #20a39e;
   font-family: 'Berkshire Swash', cursive;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: -0.045em;  
+  color: #02111B;
+
 }
 
 h3{
-  color: #20a39e;
+  color: #02111B;
   font-family: 'Berkshire Swash', cursive;
 }
+
+p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: -0.045em;
+  color: #000000;
+}
+
 #terceira{
-  color: #de004e;
+  color: #02111B;
 }
 
 body{
   overflow-x: hidden;
   color: #23001e;
-  background-color: white;
+  background-color: #F2F0F0;
   font-family: 'Poppins', sans-serif;
   font-size: 80%;
 }
@@ -210,4 +228,8 @@ body{
   img{
     align-self: center;
   }
+}
+
+.cont img {
+  height: 40vh;
 }
